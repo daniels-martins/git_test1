@@ -7,5 +7,6 @@
 </head>
 <body>
     <h2>Welcome to the contact page</h2>
+    <p>{{ $companyPhone }}</p>
 </body>
 </html>

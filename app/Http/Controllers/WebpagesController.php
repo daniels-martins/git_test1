@@ -8,20 +8,19 @@ class WebpagesController extends Controller
 {
     public function welcome()
     {
-    return view('welcome');
-        
+        return view('welcome');
     }
 
 
     public function contact()
     {
-    return view('contact');
-        
+        $companyPhone = '0430458934';
+
+        return view('contact', compact('companyPhone'));
     }
 
     public function about()
     {
-    return 'about page';
-        
+        return 'about page';
     }
 }
